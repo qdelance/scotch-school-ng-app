@@ -1,4 +1,6 @@
-Notes for typings:
+# Notes, what I learnt
+
+## Typings
 
 given the typings in the online course:
 
@@ -57,3 +59,11 @@ Reference package.json
 Refer to the doc https://angular.io/docs/ts/latest/quickstart.html
 
 Note that some dependencies (rxjs...) may have specific (beta ;) versions needed as requirements
+
+## Form validation
+
+xxx.touched to make sure data was typed before and avoid error message when form is initialy empty
+
+## ngSubmit instead of submit event
+
+(submit) will use native event handling ... and refresh the page (not what we want) => (ngSubmit)
