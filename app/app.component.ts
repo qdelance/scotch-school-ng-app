@@ -29,11 +29,16 @@ export class AppComponent {
             name: 'John Doe',
             username: 'john'
         }
-    ]
+    ];
     activeUser: User;
 
     selectUser(user) {
         this.activeUser = user;
         console.log(user);
+    }
+
+    onUserCreated(event) {
+        console.log(event);
+        this.users.push(event.user);
     }
 }

@@ -62,7 +62,8 @@ Note that some dependencies (rxjs...) may have specific (beta ;) versions needed
 
 ## Form validation
 
-xxx.touched to make sure data was typed before and avoid error message when form is initialy empty
+xxx.touched to make sure data was typed before and avoid error message when form is initially empty
+I don't like the way form is recreated with setTimeout(() => this.active = true, 0);
 
 ## ngSubmit instead of submit event
 
